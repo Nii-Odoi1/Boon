@@ -1,0 +1,35 @@
+{% extends 'router/base.html' %} {% load crispy_forms_tags %} {% block content %}
+<div class="card rounded-0 mb-3">
+    <div class="card-body">
+        <div class="container-fluid">
+            <fieldset class="border pb-2 px-2">
+                <legend class="px-3 mx-3 w-auto">How to use:</legend>
+                <ul>
+                    <li>Add any valid url on the <b>"Original URL"</b> input field including the <b>http://</b> or <b>https://</b>.</li>
+                    <li>On the <b>"Shorten Key"</b> field, enter any random string or key for your shortened URL.</li>
+                    <li>Click the <b>"Shorten"</b> button below the form to save your shortened link or URL.</li>
+                    <li>Click the <b>"Reset"</b> button to reset the form.</li>
+                    <li>All shortened URLs are listed @ the <b>All URLs</b> Page.</li>
+                </ul>
+            </fieldset>
+        </div>
+    </div>
+</div>
+<div class="card rounded-0">
+    <div class="card-body">
+        <div class="container-fluid">
+            <form action="" method="post" id="url-form">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <h3 class="border-bottom mb-4 fw-bolder text-center">Create a Short URL</h3>
+                    {{ form|crispy }}
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="card-footer text-center py-1">
+        <button class="btn btn-primary btn-sm rounded-pill px-4" form="url-form">Shorten</button>
+        <button class="btn btn-default btn-sm rounded-pill border px-4" form="url-form" type="reset">Reset</button>
+    </div>
+</div>
+{% endblock content %}
