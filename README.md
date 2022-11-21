@@ -1,8 +1,8 @@
 # URL Shortener App
 
-A Django URL Shortener App created with Django 3.0 and Python 3.8 to shorten any URL given. This project is made to learn Django.
+A Django URL Shortener App created with Django 3.0 and Python 3.8 to shorten any URL given. This project is an ALX project.
 
-**Live Site running on Heroku**: https://myurlshortener1.herokuapp.com/
+**Live Site**: https://boon.niiodoi.tech/
 
 ## Demostration
 
@@ -23,9 +23,6 @@ Install ``pipenv`` using ``pip install pipenv`` and initialise a Virtual Machine
 `SECRET_KEY`: Django secret key which can be any long hexadecimal value. Django recommends *atleast* **50 characters** to make it secure.
 `DEBUG_VALUE`: Set it as **"True"** for Debug environment and **"False"** for Production.
 
-## How to Setup for Production
-
-Refer on how to deploy Python apps in Heroku [here](https://devcenter.heroku.com/articles/deploying-python) and Django app configuration [here](https://devcenter.heroku.com/articles/django-app-configuration).
 
 ## Features
 
@@ -54,3 +51,7 @@ This project was created on **Ubuntu-20.04 LTS** and tested under **Windows 10**
 This project is still under development. Parts of the source codes may not be well documented. Also suitable prompts may not be available for the user at the moment.
 
 More features and fixes are yet to come. Meanwhile suggestions, ideas, bug reports are welcomed.
+
+## Author
+
+Nii Tetteh Odoi
