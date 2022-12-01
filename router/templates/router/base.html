@@ -32,7 +32,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
         <div class="container">
           <a class="navbar-brand" href="{% url 'home' %}">
-            <img src="{% static 'images/logo1.png' %}" alt="Boon URL logo">
+            <img src="{% static 'images/boon2.png' %}" alt="Boon URL logo">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,12 +47,14 @@
               {% comment %} <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
               </li> {% endcomment %}
             </ul>
-            <button type="button" class="rounded-pill btn-rounded">
-              Contact Us
-              <span>
-                <i class="fas fa-phone-alt"></i>
-              </span>
-            </button>
+            <a href="#contact-us" style="text-decoration: none;">
+              <button type="button" class="rounded-pill btn-rounded">
+                Contact Us
+                <span>
+                  <i class="fas fa-phone-alt"></i>
+                </span>
+              </button>
+            </a>
           </div>
         </div>
       </nav>
@@ -80,7 +82,7 @@
                            START SECTION 9 - THE FOOTER  
 ///////////////////////////////////////////////////////////////////////////////////////////////-->
 <footer class="footer">
-    <div class="container">
+    <div class="container" id="contact-us">
       <div class="row">
         <!-- CONTENT FOR THE MOBILE NUMBER  -->
         <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">

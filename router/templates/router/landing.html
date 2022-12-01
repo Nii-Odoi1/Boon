@@ -45,16 +45,15 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        {% comment %} <a href="{% url 'landing' %}" class="">
-                            <img src="{% static 'assets1/images/logo.png' %}" alt="Softy Pinko"/>
-                            Boon URL Shortener
-                        </a> {% endcomment %}
+                        <a href="{% url 'landing' %}" class="logo">
+                            <img src="{% static 'images/boon4.png' %}" alt="Softy Pinko"/>
+                        </a> 
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav float-center">
                             <li><a href="#welcome" class="active">Home</a></li>
                             <li><a href="#features">About</a></li>
-                            <li><a href="#work-process">Feature</a></li>
+                            <li><a href="#images">Feature</a></li>
                             {% comment %} <li><a href="#testimonials">Testimonials</a></li>
                             <li><a href="#pricing-plans">Pricing Tables</a></li>
                             <li><a href="#blog">Blog Entries</a></li>
@@ -91,7 +90,7 @@ https://templatemo.com/tm-535-softy-pinko
     <!-- ***** Welcome Area End ***** -->
 
     <!-- ***** Features Small Start ***** -->
-    <section class="section home-feature">
+    <section class="section home-feature" id="images">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -126,8 +125,8 @@ https://templatemo.com/tm-535-softy-pinko
                                 <div class="icon">
                                     <i><img src="{% static 'assets1/images/featured-item-01.png' %}" alt=""></i>
                                 </div>
-                                <h5 class="features-title">Ultimate Marketing</h5>
-                                <p>You just need to tell your friends about our free templates</p>
+                                <h5 class="features-title">Generate Customized QR Codes</h5>
+                                <p>Generate customized QR Code solutions for everyone</p>
                             </div>
                         </div>
                         <!-- ***** Features Small Item End ***** -->
@@ -135,80 +134,37 @@ https://templatemo.com/tm-535-softy-pinko
                 </div>
             </div>
         </div>
+        <div class="center-heading">
+            <h2 class="section-title">Images</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="blog-post-thumb">
+                    <div class="img">
+                        <img src="{% static 'images/new_screen1.png' %}" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="blog-post-thumb">
+                    <div class="img">
+                        <img src="{% static 'images/new_screen2.png' %}" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="blog-post-thumb">
+                    <div class="img">
+                        <img src="{% static 'assets1/images/blog-item-03.png' %}" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
     </section>
     <!-- ***** Features Small End ***** -->
-
-        <!-- ***** Blog Start ***** -->
-        {% comment %} <section class="section" id="blog">
-            <div class="container"> {% endcomment %}
-                <!-- ***** Section Title Start ***** -->
-                {% comment %} <div class="row">
-                    <div class="col-lg-12">
-                        <div class="center-heading">
-                            <h2 class="section-title">Blog Entries</h2>
-                        </div>
-                    </div>
-                    <div class="offset-lg-3 col-lg-6">
-                        <div class="center-text">
-                            <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
-                        </div>
-                    </div>
-                </div> {% endcomment %}
-                <!-- ***** Section Title End ***** -->
-    
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="blog-post-thumb">
-                            <div class="img">
-                                <img src="{% static 'assets1/images/blog-item-01.png' %}" alt="">
-                            </div>
-                            {% comment %} <div class="blog-content">
-                                <h3>
-                                    <a href="#">Vivamus ac vehicula dui</a>
-                                </h3>
-                                <div class="text">
-                                   Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.
-                                </div>
-                                <a href="#" class="main-button">Read More</a>
-                            </div> {% endcomment %}
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="blog-post-thumb">
-                            <div class="img">
-                                <img src="{% static 'assets1/images/blog-item-02.png' %}" alt="">
-                            </div>
-                            {% comment %} <div class="blog-content">
-                                <h3>
-                                    <a href="#">Phasellus convallis augue</a>
-                                </h3>
-                                <div class="text">
-                                    Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis.
-                                </div>
-                                <a href="#" class="main-button">Read More</a>
-                            </div> {% endcomment %}
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="blog-post-thumb">
-                            <div class="img">
-                                <img src="{% static 'assets1/images/blog-item-03.png' %}" alt="">
-                            </div>
-                            {% comment %} <div class="blog-content">
-                                <h3>
-                                    <a href="#">Nam gravida purus non</a>
-                                </h3>
-                                <div class="text">
-                                    Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu.
-                                </div>
-                                <a href="#" class="main-button">Read More</a>
-                            </div> {% endcomment %}
-                        </div>
-                    </div>
-                </div>
-            {% comment %} </div>
-        </section> {% endcomment %}
-        <!-- ***** Blog End ***** -->
 
     <!-- ***** Features Big Item Start ***** -->
     <section class="section padding-top-70 padding-bottom-0" id="features">
@@ -271,7 +227,7 @@ https://templatemo.com/tm-535-softy-pinko
     </section>
     <!-- ***** Features Big Item End ***** -->
 
-    <!-- ***** Home Parallax Start ***** -->
+    {% comment %} <!-- ***** Home Parallax Start ***** -->
     <section class="mini" id="work-process">
         <div class="mini-content">
             <div class="container">
@@ -333,7 +289,7 @@ https://templatemo.com/tm-535-softy-pinko
             </div>
         </div>
     </section>
-    <!-- ***** Home Parallax End ***** -->
+    <!-- ***** Home Parallax End ***** --> {% endcomment %}
 
     {% comment %} <!-- ***** Testimonials Start ***** -->
     <section class="section" id="testimonials">
@@ -554,7 +510,7 @@ https://templatemo.com/tm-535-softy-pinko
     </section>
     <!-- ***** Counter Parallax End ***** -->    {% endcomment %}
 
-    <!-- ***** Blog Start ***** -->
+    {% comment %} <!-- ***** Blog Start ***** -->
     <section class="section" id="blog">
         <div class="container">
             <!-- ***** Section Title Start ***** -->
@@ -624,9 +580,9 @@ https://templatemo.com/tm-535-softy-pinko
             </div>
         </div>
     </section>
-    <!-- ***** Blog End ***** -->
+    <!-- ***** Blog End ***** --> {% endcomment %}
 
-    <!-- ***** Contact Us Start ***** -->
+    {% comment %} <!-- ***** Contact Us Start ***** -->
     <section class="section colored" id="contact-us">
         <div class="container">
             <!-- ***** Section Title Start ***** -->
@@ -689,12 +645,17 @@ https://templatemo.com/tm-535-softy-pinko
             </div>
         </div>
     </section>
-    <!-- ***** Contact Us End ***** -->
+    <!-- ***** Contact Us End ***** --> {% endcomment %}
     
     <!-- ***** Footer Start ***** -->
     <footer>
-        <div class="container">
-            <div class="row">
+        {% comment %} <div class="row"> {% endcomment %}
+            <div class="col-lg-12">
+                <p class="copyright">Copyright &copy; 2022 Holberton Profile Project</p>
+            </div>
+        {% comment %} </div> {% endcomment %}
+        {% comment %}<div class="container">
+             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <ul class="social">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -703,14 +664,10 @@ https://templatemo.com/tm-535-softy-pinko
                         <li><a href="#"><i class="fa fa-rss"></i></a></li>
                         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                     </ul>
-                </div>
+                </div> 
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="copyright">Copyright &copy; 2020 Softy Pinko Company - Design: TemplateMo</p>
-                </div>
-            </div>
-        </div>
+            
+        </div>{% endcomment %}
     </footer>
     
     <!-- jQuery -->
