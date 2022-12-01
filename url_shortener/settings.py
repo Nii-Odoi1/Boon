@@ -12,10 +12,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
-<<<<<<< HEAD
-=======
-## import django_heroku
->>>>>>> c4b057161fbd411993e0b4109662523426d1b8ad
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
@@ -136,7 +132,3 @@ STATICFILES_DIRS = [
 #STATIC_ROOT = "/var/www/sbxboon.niiodoi.tech/static"
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-<<<<<<< HEAD
-=======
-## django_heroku.settings(locals())
->>>>>>> c4b057161fbd411993e0b4109662523426d1b8ad
