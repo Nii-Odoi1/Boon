@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row align-items-center text-white">
         <!-- START THE CONTENT FOR THE INTRO  -->
-        <div class="col-md-6 intros text-start">
+        <div class="col-md-5 intros text-start">
           <h1 class="display-2">
             <span class="display-2--intro">Shorter URLs, The better!</span>
             <span class="display-2--description lh-base">
@@ -12,14 +12,14 @@
           </h1>
         </div>
         <!-- START THE CONTENT FOR THE BACKGROUND ILLUSTRATION -->
-        <div class="col-md-6 intros text-end">
+        <div class="col-md-7 intros text-end">
             <div class="video-box">
               <img src="{% static 'images/services/platform.png' %}" alt="background illutration" class="img-fluid">
             </div>
         </div>
-        <form class="narrow-w form-search d-flex align-items-stretch mb-3 rounded-500" action="" method="post" id="url-form">
+        <form class="narrow-w form-search d-flex align-items-stretch mb-3 " action="" method="post" id="url-form">
             {% csrf_token %}
-            <fieldset class="form-group">
+            <fieldset class="form-group col-md-6 mb-0 fw-light">
                 {% comment %} <h3 class="border-bottom mb-4 fw-bolder text-center">Create a Short URL</h3> {% endcomment %}
                 {{ form|crispy }}
             </fieldset>

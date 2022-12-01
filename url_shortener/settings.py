@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+<<<<<<< HEAD
+=======
+## import django_heroku
+>>>>>>> c4b057161fbd411993e0b4109662523426d1b8ad
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
@@ -26,7 +30,7 @@ SECRET_KEY = 'faweoif2f90j2ionwjdcsnxwef12r0129cjhen1x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['107.23.29.36', 'sbxboon.niiodoi.tech']
+ALLOWED_HOSTS = ['107.23.29.36', 'sbxboon.niiodoi.tech', '127.0.0.1']
 
 
 # Application definition
@@ -132,3 +136,7 @@ STATICFILES_DIRS = [
 #STATIC_ROOT = "/var/www/sbxboon.niiodoi.tech/static"
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+<<<<<<< HEAD
+=======
+## django_heroku.settings(locals())
+>>>>>>> c4b057161fbd411993e0b4109662523426d1b8ad

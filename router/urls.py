@@ -5,6 +5,7 @@ from .views import URLListView
 urlpatterns = [
     path('', views.home, name='home'),
     path('how-to/', views.how_to, name='how-to'),
+    path('landing/', views.landing, name='landing'),
     path('shortened-urls/', URLListView.as_view(), name='url-list'),
     path('<slug:key>/', views.redirector, name='redirector')
 ]
