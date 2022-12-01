@@ -22,6 +22,10 @@ def how_to(request):
     # return HttpResponse("<h1>About Page</h1>")
     return render(request, 'router/how_to_use.html')
 
+def landing(request):
+    # return HttpResponse("<h1>About Page</h1>")
+    return render(request, 'router/landing.html')
+
 class URLListView(ListView):
     model = Route
     context_object_name = 'urls'
