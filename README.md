@@ -1,14 +1,11 @@
-# URL Shortener App
+# Boon URL Shortener App
 
 A Django URL Shortener App created with Django 3.0 and Python 3.8 to shorten any URL given. This project is an ALX project.
 
-**Live Site**: https://boon.niiodoi.tech/
+**Live Site**: https://sbxboon.niiodoi.tech/
+**Project Site**: https://sbxboon.niiodoi.tech/landing
 
-## Demostration
-
-![Shortening a URL](http://g.recordit.co/NtR9A0S6N9.gif)
-
-## How to Setup in Localhost
+## Installation (How to Setup in Localhost)
 
 1. Clone this repository.
 2. Open the cloned repository.
@@ -18,7 +15,7 @@ Install ``pipenv`` using ``pip install pipenv`` and initialise a Virtual Machine
 4. Set environment variables like `SECRET_KEY`, `DEBUG_VALUE`.
 5. Run the Django Server using ``python manage.py runserver`` and then goto ``localhost:8000`` or ``127.0.0.1:8000`` and see the server running.
 
-### Environment Variables:
+### Usage (Environment Variables):
 
 `SECRET_KEY`: Django secret key which can be any long hexadecimal value. Django recommends *atleast* **50 characters** to make it secure.
 `DEBUG_VALUE`: Set it as **"True"** for Debug environment and **"False"** for Production.
@@ -52,6 +49,14 @@ This project is still under development. Parts of the source codes may not be we
 
 More features and fixes are yet to come. Meanwhile suggestions, ideas, bug reports are welcomed.
 
+## Related Projects
+* [Bitly](https://bitly.com/)
+* [TinyURL](https://tinyurl.com/app)
+
+## License
+
+[Project Licensing](https://github.com/Nii-Odoi1/Boon/blob/master/LICENSE)
+
 ## Author
 
-Nii Tetteh Odoi
+[Nii Tetteh Odoi](https://www.linkedin.com/in/nii-odoi/)
