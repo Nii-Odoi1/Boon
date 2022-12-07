@@ -1,4 +1,4 @@
-# Boon URL Shortener App
+# ![Boon URL Shortener App](/router/static/images/boon2.png)
 
 A Django URL Shortener App created with Django 3.0 and Python 3.8 to shorten any URL given. This project is an ALX project.
 
