@@ -3,6 +3,7 @@
 A Django URL Shortener App created with Django 3.0 and Python 3.8 to shorten any URL given. This project is an ALX project.
 
 **Live Site**: https://sbxboon.niiodoi.tech/
+
 **Project Site**: https://sbxboon.niiodoi.tech/landing
 
 ## Installation (How to Setup in Localhost)
